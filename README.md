@@ -76,13 +76,13 @@ Below is a summary of the classification performance for each model:
 ```
               precision    recall  f1-score   support
 
-  Osteopenia       0.82      0.55      0.66        75
-Osteoporosis       0.60      0.86      0.71       159
-      Normal       0.83      0.60      0.70       156
+      Normal       0.77      0.46      0.57       180
+  Osteopenia       0.73      0.91      0.81       180
+Osteoporosis       0.56      0.65      0.60       180
 
-    accuracy                           0.70       390
-   macro avg       0.75      0.67      0.69       390
-weighted avg       0.74      0.70      0.70       390
+    accuracy                           0.67       540
+   macro avg       0.69      0.67      0.66       540
+weighted avg       0.69      0.67      0.66       540
 ```
 
 ### **VGG19**
@@ -102,52 +102,53 @@ weighted avg       0.77      0.75      0.75       390
 ```
               precision    recall  f1-score   support
 
-  Osteopenia       0.85      0.88      0.86        75
-Osteoporosis       0.88      0.91      0.89       159
-      Normal       0.91      0.87      0.89       156
+      Normal       0.84      0.59      0.69       180
+  Osteopenia       0.74      0.86      0.79       180
+Osteoporosis       0.65      0.73      0.69       180
 
-    accuracy                           0.88       390
-   macro avg       0.88      0.88      0.88       390
-weighted avg       0.89      0.88      0.88       390
+    accuracy                           0.73       540
+   macro avg       0.74      0.73      0.73       540
+weighted avg       0.74      0.73      0.73       540
 ```
 
 ### **ResNet50**
 ```
               precision    recall  f1-score   support
 
-  Osteopenia       0.87      0.35      0.50        75
-Osteoporosis       0.57      0.92      0.70       159
-      Normal       0.86      0.55      0.67       156
+      Normal       0.77      0.31      0.44       180
+  Osteopenia       0.74      0.82      0.78       180
+Osteoporosis       0.50      0.75      0.60       180
 
-    accuracy                           0.66       390
-   macro avg       0.76      0.61      0.62       390
-weighted avg       0.74      0.66      0.65       390
+    accuracy                           0.63       540
+   macro avg       0.67      0.63      0.61       540
+weighted avg       0.67      0.63      0.61       540
 ```
 
-### **Xception**
-```
-              precision    recall  f1-score   support
-
-  Osteopenia       0.81      0.89      0.85        75
-Osteoporosis       0.89      0.83      0.86       159
-      Normal       0.89      0.91      0.90       156
-
-    accuracy                           0.87       390
-   macro avg       0.86      0.88      0.87       390
-weighted avg       0.88      0.87      0.87       390
-```
-
-### **AlexNet**
+### **MobileNetV2**
 ```
               precision    recall  f1-score   support
 
-  Osteopenia       0.86      0.85      0.86        75
-Osteoporosis       0.82      0.88      0.85       159
-      Normal       0.89      0.83      0.86       156
+      Normal       0.85      0.48      0.61       180
+  Osteopenia       0.76      0.84      0.80       180
+Osteoporosis       0.58      0.77      0.66       180
 
-    accuracy                           0.85       390
-   macro avg       0.86      0.85      0.85       390
-weighted avg       0.86      0.85      0.85       390
+    accuracy                           0.70       540
+   macro avg       0.73      0.70      0.69       540
+weighted avg       0.73      0.70      0.69       540
+
+```
+
+### **DenseNwt121**
+```
+              precision    recall  f1-score   support
+
+      Normal       0.83      0.45      0.58       180
+  Osteopenia       0.72      0.81      0.76       180
+Osteoporosis       0.56      0.74      0.64       180
+
+    accuracy                           0.67       540
+   macro avg       0.70      0.67      0.66       540
+weighted avg       0.70      0.67      0.66       540
 ```
 
 ### **Late Fusion**
