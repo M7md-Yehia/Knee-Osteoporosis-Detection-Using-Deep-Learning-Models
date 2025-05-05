@@ -47,13 +47,14 @@ Below is a summary of the classification performance for each model:
 
 
 
+
 | Model       | Accuracy | Precision | Recall | F1-Score | Confusion Matrix | Graphs |
 |------------|----------|------------|--------|----------|------------------|--------|
 | **VGG16**  | 72%      | 0.75       | 0.72   | 0.71     | ![5f15d185-70a4-4e34-ac45-95b0939d3492](https://github.com/user-attachments/assets/4f808014-ab3d-4e37-9ea2-0b36220a999c) | ![8a87efd6-74b4-4f83-82ca-762092f8dfea](https://github.com/user-attachments/assets/a47708b3-65c8-4405-85f7-11e52428684e)
 | **VGG19**  | 67%      | 0.69       | 0.67   | 0.66     | ![39902dcb-cefb-4dcd-aff8-42a0733d5ca4](https://github.com/user-attachments/assets/107c4901-9faa-4979-8c82-9808d9858191) | ![93d817c0-affe-4bcd-9c3a-42622beae5cc](https://github.com/user-attachments/assets/6a965aa0-fc88-4450-bf90-b1826c545eec) |
 | **InceptionV3** | 73% | 0.74       | 0.73   | 0.73     | ![dcae6ac3-1910-459f-89f6-a4752655949a](https://github.com/user-attachments/assets/0d5b10ca-534a-4129-a6d1-4e2a61bf5c7f) | ![3a1cda72-a6df-4219-9fe4-4224d11d332f](https://github.com/user-attachments/assets/2905fbdb-d3da-419b-bf33-cde8358dd65b) |
 | **ResNet50** | 63%   | 0.67       | 0.63   | 0.61     | ![f827cbb6-bb1d-4f7a-af5a-b5d712735c40](https://github.com/user-attachments/assets/53dc8890-7117-422b-857b-17229cd98ad7) | ![572ea5a1-43e2-48bd-838c-6f91f456e288](https://github.com/user-attachments/assets/cedb864b-5cc4-49db-b931-58acf8ae6162) |
-| **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ![image](https://github.com/user-attachments/assets/4c5dba18-a3ab-4b58-920d-0bcbfd2053d6) | ![image](https://github.com/user-attachments/assets/9100cc15-e631-4e2a-bc15-5ebb7934e191) |
+| **MobileNetV2** | 70%   | 0.73       | 0.70   | 0.69     | ![f1a4ec5a-87b7-452b-9854-e2511fd90038](https://github.com/user-attachments/assets/770f8810-2690-4ef6-8c68-8e71582b4c44) | ![52908211-aed7-4f1e-90a6-c40e91223abc](https://github.com/user-attachments/assets/e2a045a7-c48f-4924-a836-7204ec79fc7b) |
 | **AlexNet** | 85%    | 0.86       | 0.85   | 0.85     | ![image](https://github.com/user-attachments/assets/25120dd6-fa30-412b-b3ef-6b3ae0ed6d6d) | ![image](https://github.com/user-attachments/assets/0ad3578c-8c1a-4f9f-9f37-23640e3211f3) |
 |**Late Fusion**|86%|0.86|0.86|0.86|![image](https://github.com/user-attachments/assets/aaadb325-1663-423e-afce-b522d48e88c5)|![image](https://github.com/user-attachments/assets/3ef2e6ce-d88f-47e4-99ef-b9fcf31d528d)|
 |**DenseNet 121**|83%|0.83|0.83|0.83|![image](https://github.com/user-attachments/assets/c092727a-2f21-441c-ae98-c0c04349a9aa)|![image](https://github.com/user-attachments/assets/ea0f040c-18db-493a-8bfb-ab028610d744)|
