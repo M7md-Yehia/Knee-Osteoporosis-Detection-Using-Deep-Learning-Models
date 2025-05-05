@@ -25,15 +25,9 @@ We have trained and evaluated the following deep learning models:
 2. **VGG19**
 3. **InceptionV3**
 4. **ResNet50**
-5. **Xception**
-6. **AlexNet**
-7. **Custom CNN**
-8. **Late Fusion**
+5. **MobileNetV2**
+6. **DenseNwt121**
 
-9. **Dense Net 121**
-10. **VGG 16 + VGG 19**
-11. **InceptionV3 + XceptionNet**
-12. **ResNet 50 + DenseNet 121**
 
 Each model was trained with the same dataset and evaluated using precision, recall, f1-score, accuracy, and confusion matrices.
 ---
