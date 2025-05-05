@@ -40,10 +40,16 @@ Each model was trained with the same dataset and evaluated using precision, reca
 ## Performance Metrics
 Below is a summary of the classification performance for each model:
 
+
+
+
+
+
+
 | Model       | Accuracy | Precision | Recall | F1-Score | Confusion Matrix | Graphs |
 |------------|----------|------------|--------|----------|------------------|--------|
 | **VGG16**  | 68%      | 0.71       | 0.68   | 0.67     | ![5f15d185-70a4-4e34-ac45-95b0939d3492](https://github.com/user-attachments/assets/d676cdf9-46c4-4e5e-9f97-31eff7452346) | ![8a87efd6-74b4-4f83-82ca-762092f8dfea](https://github.com/user-attachments/assets/a47708b3-65c8-4405-85f7-11e52428684e)
-| **VGG19**  | 67%      | 0.69       | 0.67   | 0.66     | ![image](https://github.com/user-attachments/assets/2c4da798-a558-45c6-965f-a7f4f48b1ba9) | ![image](https://github.com/user-attachments/assets/06218327-c539-4199-bd16-ebe6cd3f1969) |
+| **VGG19**  | 67%      | 0.69       | 0.67   | 0.66     | ![39902dcb-cefb-4dcd-aff8-42a0733d5ca4](https://github.com/user-attachments/assets/107c4901-9faa-4979-8c82-9808d9858191) | ![93d817c0-affe-4bcd-9c3a-42622beae5cc](https://github.com/user-attachments/assets/6a965aa0-fc88-4450-bf90-b1826c545eec) |
 | **InceptionV3** | 73% | 0.74       | 0.73   | 0.73     | ![image](https://github.com/user-attachments/assets/14f0fbe5-bda7-42fc-be21-b55f746739a8) | ![image](https://github.com/user-attachments/assets/af83ce3a-99f3-438a-a8b8-1b4b49f06c93) |
 | **ResNet50** | 66%   | 0.74       | 0.66   | 0.65     | ![image](https://github.com/user-attachments/assets/f5fac108-bfa9-4571-b94a-4ff18437a09b) | ![image](https://github.com/user-attachments/assets/cd8b76ad-cea7-4158-a446-4048dcffdaf7) |
 | **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ![image](https://github.com/user-attachments/assets/4c5dba18-a3ab-4b58-920d-0bcbfd2053d6) | ![image](https://github.com/user-attachments/assets/9100cc15-e631-4e2a-bc15-5ebb7934e191) |
