@@ -190,26 +190,26 @@ weighted avg       0.70      0.67      0.66       540
 ```
 
 ### **Logisitc Reg**
----
-                        precision    recall  f1-score   support
+```
+              precision    recall  f1-score   support
 
-    normal       1.00      0.86      0.92         7
-    osteopenia       0.94      1.00      0.97        33
-    osteoporosis       1.00      0.88      0.93         8
+      Normal       1.00      0.86      0.92       7
+  Osteopenia       0.94      1.00      0.76       33
+Osteoporosis       1.00      0.88      0.64       8
 
-              accuracy                           0.96        48
-             macro avg       0.98      0.91      0.94        48
-          weighted avg       0.96      0.96      0.96        48
----
+    accuracy                           0.96       48
+   macro avg       0.98      0.91      0.94       48
+weighted avg       0.96      0.96      0.96       48
+```
 
 ### **Logisitc**
 ---
 
               precision    recall  f1-score   support
 
-           0       1.00      0.60      0.75         5
-           1       0.88      1.00      0.94        23
-           2       1.00      0.88      0.93         8
+      Normal      1.00      0.60      0.75         5
+     Osteopenia   0.88      1.00      0.94        23
+    Osteoporosis  1.00      0.88      0.93         8
 
     accuracy                           0.92        36
     macro avg      0.96      0.83      0.87        36
