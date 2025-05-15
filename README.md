@@ -233,4 +233,5 @@ By combining both approaches, we get a stronger, more accurate way to diagnose o
 - **[Nezar Emad ELdin](https://www.linkedin.com/in/nezar-emad-eldin/)** - AI/ML Researcher
 
 ---
-*This project was developed as part of an ongoing research initiative in medical image classification using deep learning.*
+This project was developed as part of an ongoing research initiative in medical diagnosis combining medical image classification using deep learning and tabular data with machine learning.
+
