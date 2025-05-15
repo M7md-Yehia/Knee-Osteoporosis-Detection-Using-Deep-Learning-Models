@@ -22,10 +22,7 @@ The image dataset contains X-ray bone images classified into:
 The tabular dataset contains structured patient clinical and demographic data, including the following features:
 
 - Patient ID
-- Joint Pain (presence or absence)
-- Gender
-- Age and Menopause Age
-- Height (in meters) and Weight (in kilograms)
+- Joint Pain (presence or absence) - Gender - Age and Menopause Age - Height (in meters) and Weight (in kilograms)
 - Lifestyle factors: Smoking, Alcohol consumption
 - Medical conditions: Diabetes, Hypothyroidism, Seizer Disorder
 - Number of pregnancies
