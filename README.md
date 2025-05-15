@@ -5,7 +5,7 @@
 This repository contains two complementary projects aimed at osteoporosis classification:
 
 1. **Image-based Classification:** Deep learning models trained on bone X-ray images.
-2. **Tabular Data Analysis:** Machine learning models trained on structured patient data to predict osteoporosis.
+2. **Tabular Data :** Machine learning models trained on structured patient data to predict osteoporosis.
 
 
 ---
