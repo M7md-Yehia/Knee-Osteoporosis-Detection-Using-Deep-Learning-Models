@@ -242,6 +242,4 @@ This project uses datasets from the following sources:
 - Multi-Class Knee Osteoporosis X-Ray Dataset ([Kaggle](https://www.kaggle.com/datasets/mohamedgobara/multi-class-knee-osteoporosis-x-ray-dataset))
 - Knee X-ray Osteoporosis Database ([Mendeley Data](https://data.mendeley.com/datasets/fxjm8fb6mw/2))
 
-Please refer to the original dataset licenses and usage terms.
-
 The code and models developed in this project are licensed under the MIT License.
