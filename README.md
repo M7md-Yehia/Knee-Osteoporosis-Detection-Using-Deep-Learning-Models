@@ -1,14 +1,46 @@
 # Osteoporosis Classification using Deep Learning
 ---
 ## Project Overview
-This project focuses on classifying bone conditions using deep learning models trained on X-ray images. The models used include **VGG16, VGG19, InceptionV3, ResNet50, Xception, AlexNet, MobileNetV2 and a Custom CNN**. The goal is to accurately classify images into three categories:
+This repository contains two complementary projects aimed at osteoporosis classification:
 
-- **Osteopenia** 
-- **Osteoporosis** 
-- **Normal** 
+1. **Image-based Classification:** Deep learning models trained on bone X-ray images.
+2. **Tabular Data Analysis:** Machine learning models trained on structured patient data to predict osteoporosis.
+
+
 ---
+
 ## Dataset
-The dataset consists of **X-ray images** of bones, divided into three classes. The images were preprocessed by resizing, normalizing, and augmenting to enhance the model's performance.
+
+### Image Dataset
+The image dataset contains X-ray bone images classified into:
+- Osteopenia
+- Osteoporosis
+- Normal
+
+### Tabular Dataset
+The tabular dataset contains structured patient clinical and demographic data, including the following features:
+
+- Patient ID
+- Joint Pain (presence or absence)
+- Gender
+- Age and Menopause Age
+- Height (in meters) and Weight (in kilograms)
+- Lifestyle factors: Smoking, Alcohol consumption
+- Medical conditions: Diabetes, Hypothyroidism, Seizer Disorder
+- Number of pregnancies
+- Hormonal treatment: Estrogen Use
+- Occupation
+- History of fractures and dialysis
+- Family history of osteoporosis
+- Physical activity: Maximum walking distance (km)
+- Daily eating habits
+- General medical history
+- Bone density scores: T-score and Z-score values
+- Body Mass Index (BMI)
+- Site of bone measurement
+- Obesity status
+- Final Diagnosis (Osteopenia, Osteoporosis, Normal)
+
 
 |X-ray Images||||Classification|
 |----------------------|----------------------|----------------------|----------------------|----------------------|
@@ -19,17 +51,18 @@ The dataset consists of **X-ray images** of bones, divided into three classes. T
 ## Model Architecture
 ![Model Architecture of Osteoporosis Prediction](https://github.com/user-attachments/assets/f7380181-ab19-41bf-b6c5-f159761a6057)
 ---
-## Models Used
-We have trained and evaluated the following deep learning models:
-1. **VGG16**
-2. **VGG19**
-3. **InceptionV3**
-4. **ResNet50**
-5. **MobileNetV2**
-6. **DenseNwt121**
-7.**Logistic Reg**
-8.**Random Forest**
-9.**SVM** 
+
+## Models and Methods
+
+### Image-based Models
+- VGG16, VGG19, InceptionV3, ResNet50, MobileNetV2, DenseNet121, Custom CNN
+
+### Tabular Data Models
+- Logistic Regression
+- Random Forest
+- Support Vector Machine (SVM)
+
+---
     
 
 Each model was trained with the same dataset and evaluated using precision, recall, f1-score, accuracy, and confusion matrices.
