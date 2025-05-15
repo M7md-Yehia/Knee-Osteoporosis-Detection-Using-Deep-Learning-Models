@@ -1,4 +1,5 @@
-# Osteoporosis Classification using Deep Learning
+# Osteoporosis Diagnosis using Image-based Deep Learning and Tabular Machine Learning
+
 ---
 ## Project Overview
 This repository contains two complementary projects aimed at osteoporosis classification:
