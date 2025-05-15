@@ -229,8 +229,8 @@ This project shows how we can use both X-ray images and patient data to detect o
 By combining both approaches, we get a stronger, more accurate way to diagnose osteoporosis. This could help doctors make faster and more reliable decisions in the future.
 ---
 ## Authors
-- **[Mohamed Yehia Youssef](https://www.linkedin.com/in/mohamed-yehia-4593792aa/)** - AI/ML Researcher
-- **[Nezar Emad ELdin](https://www.linkedin.com/in/nezar-emad-eldin/)**  - AI/ML Researcher
+- **[Mohamed Yehia Youssef](https://www.linkedin.com/in/mohamed-yehia-4593792aa/)** - AI/ML Researcher محتاجين نكتب عننا اي زي ده
+- **[Nezar Emad ELdin](https://www.linkedin.com/in/nezar-emad-eldin/)**  - 
 
 ---
 This project was developed as part of an ongoing research initiative in medical diagnosis combining medical image classification using deep learning and tabular data with machine learning.
