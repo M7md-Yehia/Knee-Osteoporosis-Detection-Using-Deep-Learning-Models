@@ -18,6 +18,11 @@ The image dataset contains X-ray bone images classified into:
 - Osteoporosis
 - Normal
 
+The knee X-ray images used in this project were obtained from the Kaggle dataset:  
+[Knee Osteoarthritis Classification](https://www.kaggle.com/datasets/fuyadhasanbhoyan/knee-osteoarthritis-classification-224224)  
+
+Due to the large size of the dataset, images are not included in this repository. Please visit the Kaggle link to download the full dataset.
+
 ### Tabular Dataset
 The tabular dataset contains structured patient clinical and demographic data, including the following features:
 
