@@ -42,6 +42,20 @@ The tabular dataset contains structured patient clinical and demographic data, i
 - Final Diagnosis (Osteopenia, Osteoporosis, Normal)
 
 
+### Tabular Data Analysis
+Extensive data analysis was performed on the tabular dataset to prepare it for effective model training. This included:
+- Data cleaning and handling missing values
+- Exploratory Data Analysis (EDA) to understand feature distributions and relationships
+- Feature engineering and selection to improve model performance
+- Normalization and transformation of relevant variables
+
+
+The file **The Final Patient Details.xlsx** represents the cleaned and fully processed tabular dataset obtained from the data analysis phase. This refined dataset comprises well-organized clinical and demographic features, optimized for training and evaluating machine learning models aimed at osteoporosis prediction.
+
+
+This preprocessing ensured the tabular data was ready for training machine learning models such as Logistic Regression, Random Forest, and Support Vector Machine (SVM).
+
+
 |X-ray Images||||Classification|
 |----------------------|----------------------|----------------------|----------------------|----------------------|
 |![Normal](https://github.com/user-attachments/assets/bdbe54bf-a7f7-45ef-acaa-f54e38c6f6ae)|![Normal](https://github.com/user-attachments/assets/73aef2e4-d48e-4948-b681-39e68e7318c5)|![Normal](https://github.com/user-attachments/assets/92c02e3f-e4bb-4539-a8d4-a22d0190c783)|![Normal](https://github.com/user-attachments/assets/9aa1826a-3e18-482e-9e67-a623b3112462)|Normal|
@@ -55,8 +69,7 @@ The tabular dataset contains structured patient clinical and demographic data, i
 ## Models and Methods
 
 ### Image-based Models
-- VGG16, VGG19, InceptionV3, ResNet50, MobileNetV2, DenseNet121, Custom CNN
-
+- VGG16, VGG19, InceptionV3, ResNet50, MobileNetV2, DenseNet121
 ### Tabular Data Models
 - Logistic Regression
 - Random Forest
