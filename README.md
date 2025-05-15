@@ -146,9 +146,9 @@ weighted avg       0.70      0.67      0.66       540
 ---
                         precision    recall  f1-score   support
 
-      Diagnosis_normal       1.00      0.86      0.92         7
-  Diagnosis_osteopenia       0.94      1.00      0.97        33
-Diagnosis_osteoporosis       1.00      0.88      0.93         8
+    normal       1.00      0.86      0.92         7
+    osteopenia       0.94      1.00      0.97        33
+    osteoporosis       1.00      0.88      0.93         8
 
               accuracy                           0.96        48
              macro avg       0.98      0.91      0.94        48
@@ -165,8 +165,8 @@ Diagnosis_osteoporosis       1.00      0.88      0.93         8
            2       1.00      0.88      0.93         8
 
     accuracy                           0.92        36
-   macro avg       0.96      0.83      0.87        36
-weighted avg       0.93      0.92      0.91        36
+    macro avg      0.96      0.83      0.87        36
+    weighted avg   0.93      0.92      0.91        36
 ---
 
     
