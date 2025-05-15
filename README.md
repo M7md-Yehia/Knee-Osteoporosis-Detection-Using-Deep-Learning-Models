@@ -225,7 +225,6 @@ Each model has an associated **confusion matrix** and **performance graphs** sho
 ---
 ## Conclusion
 This project shows how we can use both X-ray images and patient data to detect osteoporosis. The deep learning models work well with the images, and the machine learning models use the patient info to help make better predictions.
-
 By combining both approaches, we get a stronger, more accurate way to diagnose osteoporosis. This could help doctors make faster and more reliable decisions in the future.
 ---
 ## Authors
