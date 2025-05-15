@@ -230,7 +230,7 @@ By combining both approaches, we get a stronger, more accurate way to diagnose o
 ---
 ## Authors
 - **[Mohamed Yehia Youssef](https://www.linkedin.com/in/mohamed-yehia-4593792aa/)** - AI/ML Researcher
-- **[Nezar Emad ELdin](https://www.linkedin.com/in/nezar-emad-eldin/)** - AI/ML Researcher
+- **[Nezar Emad ELdin](https://www.linkedin.com/in/nezar-emad-eldin/)**  - AI/ML Researcher
 
 ---
 This project was developed as part of an ongoing research initiative in medical diagnosis combining medical image classification using deep learning and tabular data with machine learning.
