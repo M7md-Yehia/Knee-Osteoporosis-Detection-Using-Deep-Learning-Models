@@ -107,8 +107,9 @@ Below is a summary of the classification performance for each model:
 | **DenseNwt121** | 67%    | 0.70       | 0.67   | 0.66     | ![5cdbe23e-2ede-4f4a-a0fa-84b21bbe2f3f](https://github.com/user-attachments/assets/6943ad3d-1610-444f-bf4c-0eee14821a09)|![6b78c1c5-183f-4d9b-95a4-8db5a4c99c4a](https://github.com/user-attachments/assets/9d2811db-766b-46ec-a578-8f09707f2345) |
 | **Logistic regression**| 96%      | 0.98        | 0.91     | 0.94       |
 | **Random Forest**| 92%      | 0.96        | 0.83     | 0.87       |![93f73d7f-36ea-427e-8887-fd35641e1982](https://github.com/user-attachments/assets/4ee578bb-8cba-45ee-a01f-3dc1dae70b93)
-
 | **ANN**         | 83%      | 0.85       |  0.71    | .73      |
+| **Blended Model (Ensemble)** | 96%     | 0.96      | 0.96   | 0.96     | ![Confusion Matrix](https://github.com/user-attachments/assets/your-confusion-matrix.png) | ![Training Graphs](https://github.com/user-attachments/assets/your-training-graphs.png) |
+
 
 
 
