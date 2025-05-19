@@ -221,6 +221,19 @@ weighted avg       0.96      0.96      0.96       48
     weighted avg   0.93      0.92      0.91        36
 ---
 
+### Blended Model Performance (Ensemble of Image + Tabular Models)
+---
+
+             precision    recall  f1-score   support
+
+           0       1.00      0.86      0.92         7
+           1       0.94      1.00      0.97        33
+           2       1.00      0.88      0.93         8
+
+    accuracy                           0.96        48
+    macro avg       0.98      0.91      0.94        48
+    weighted avg    0.96      0.96      0.96        48
+---
     
 ## Confusion Matrices & Graphs
 Each model has an associated **confusion matrix** and **performance graphs** showcasing:
